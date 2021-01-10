@@ -1,4 +1,5 @@
----Proud Graduate
+---
+title: Proud Graduate
 ---
 
 
