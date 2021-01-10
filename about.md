@@ -1,6 +1,4 @@
 ---
-menu: true
-order: 1
 title: About
 ---
 
