@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  Movie Review - Silukarupatti
+title:  Silukarupatti
 image:  /assets/img/blog/Silu.png  
+tags: ['Movie Reviews']
 ---
 A missed opportunity to witness this beautiful movie in the theaters. The movie should have been lifted above and celebrated. Sadly, its a silenced underdog movie. From dawn, the tamil cinema industry has been male dominated, especially direction. Watching romantic movies directed from males perspective has been narrow sided and too mainstream. The same old idea of "men doing anything for the female counterpart to win the love for her" has withered out like a leaf. However, Halitha Shameem (Director) gives a different dimension and a new perspective for love in this movie. 
 

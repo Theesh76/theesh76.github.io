@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  Movie Review - Hero
+title:  Hero
 image:  /assets/img/blog/Hero.jpg
+tags: ['Movie Reviews']
 ---
 It's a hackneyed Robin Hood movie filled with old action stunts, odourless comedy, and unnecessary romance. To start with the positives, the movie would have been an average hit, if it was released 15 years before. The credits section was informative, where they display the real "HEROS" and their inventions. Furthermore, I learned a new word "lobotomy". If we dig further and deeply for more positives, we would get disappointment and new swear words to describe the movie.
  
