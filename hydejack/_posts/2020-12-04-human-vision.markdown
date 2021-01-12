@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  Creating a Human Vision
 image:  /assets/img/blog/eye.jpg
 tags: ['Computer Vision']
@@ -7,28 +8,28 @@ Incessantly I goggle at my phone every day, I admire when I witness beautiful sc
 
 The very first question that pops up regarding a human eye is why do we have two eyes ?. This question dates back to my childhood where I was taught that the reason is to get a wider angle of view and to have a binocular vision. To make this intelligible, it is the ability of each eye to see a similar scene but with a different perspective. In turn, it creates a disparity that is processed by the brain and as a result, we can judge distances. It is this depth perception that gives gravity to our eyes. The proof goes with the cliche example of closing one eye with a pen placed in front of your eyes and trying to discern the pen's location and similarly with the other eye. Thereby, leading to parallax error of the pen. So, this forms the crux of the article where it explores the basics of determining the depth of a scene.
 
-![two camera1](/assets/img/blog/st1.png){:data-width="664" data-height="454"}
-xx
+![two camera1](/assets/img/blog/st1.png){:.lead data-width="664" data-height="454"}
+Stereo Vision Setup
 {:.figure}
-With a given camera, we can visualize similar to our eyes do, but can we perceive depth?. In industries, the depth perception of an object is achieved through popular techniques namely Time of Flight (ToF), Laser Triangulation and stereo vision. However, the article focusses on stereo vision as it closely mimics the principle of an eye. In an industrial stereo vision setup, two cameras are placed similar to our eye with a distance apart and each camera takes the image of an object (P) with a different perspective as shown in the figure. In the above figure, f is the focal length, b is the distance between cameras, u_L and u_R are the image points of a point of an object (P) with respect to left camera and right camera image plane respectively. The disparity (d) is defined as uL - uR, the distance between projected points on the image plane. The depth and disparity are inversely proportional, which helps in calculating the Depth and hence the relation : D = f * b/d.
+With a given camera, we can visualize similar to our eyes do, but can we perceive depth?. In industries, the depth perception of an object is achieved through popular techniques namely Time of Flight (ToF), Laser Triangulation and stereo vision. However, the article focusses on stereo vision as it closely mimics the principle of an eye. In an industrial stereo vision setup, two cameras are placed similar to our eye with a distance apart and each camera takes the image of an object $$P$$ with a different perspective as shown in the figure. In the above figure, $$f$$ is the focal length, $$b$$ is the distance between cameras, $$u_L$$ and $$u_R$$ are the image points of a point of an object ($$P$$) with respect to left camera and right camera image plane respectively. The disparity ($$d$$) is defined as 
 
-![two camera](/assets/img/blog/st2.png){:data-width="665" data-height="379"}
-yy
-{:.figure}
-Easy right? But there is catch here. Identifying and matching similar features in an image taken from left and right camera i.e point uL and uR to identify depth can be cumbersome. The images taken might vary due to lighting conditions or different camera position/orientation and settings. But a huge bow to the methods like Scale-Invariant Feature Transform (SIFT), Cross-correlation, symbolic feature matching to tackle the stereo correspondence problem. To make this uncomplicated, we assume the optical axes of the cameras to be parallel to each other and we have images as shown in the figure. As a result, the basic stereo correspondence algorithm would look like
+$$d = u_L - u_R $$
 
-![Cover page slide animation](/assets/img/blog/cover-page.jpg){:data-width="1440" data-height="836"}
-Sliding over a cover page will reveal the content below.
+the distance between projected points on the image plane. The depth and disparity are inversely proportional, which helps in calculating the Depth and hence the relation : 
+
+$$\begin{aligned}D = f \times \frac{b}{d} \end{aligned}$$
+
+![two camera](/assets/img/blog/st2.png){:.lead data-width="665" data-height="379"}
+Epipolar Geometry
 {:.figure}
-<pre>
-<code><p1>
+Easy right? But there is catch here. Identifying and matching similar features in an image taken from left and right camera i.e point $$u_L$$ and $$u_R$$ to identify depth can be cumbersome. The images taken might vary due to lighting conditions or different camera position/orientation and settings. But a huge bow to the methods like Scale-Invariant Feature Transform (SIFT), Cross-correlation, symbolic feature matching to tackle the stereo correspondence problem. To make this uncomplicated, we assume the optical axes of the cameras to be parallel to each other and we have images as shown in the figure. As a result, the basic stereo correspondence algorithm would look like
+
+~~~py
 for each epipolar line (White line in the above image)
-{
-    for each pixel in the left image </p1>	
-    {
+    for each pixel in the left image 
         compare with every pixel on same epipolar line in right image
 	pick pixel with minimum match cost
-    }</code></pre>
+~~~
 
 The minimum match cost mentioned above can be absolute differences or squared differences in luminance (or intensity values) between the pixel in the left image and right image. Therefore by solving the above optimization problem, one can determine the depth of an object. Problem Solved !! So far, we have seen how to perceive depth with two camera/images. Is it possible to recover depth from a single camera image?. The answer is yes.
 

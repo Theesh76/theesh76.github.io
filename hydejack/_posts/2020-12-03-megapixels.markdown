@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  How many Megapixel do you need?
 image:  /assets/img/blog/cam.jpg
 tags: ['Computer Vision']
