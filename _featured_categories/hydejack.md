@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Tech Articles
+title: Technical Articles
 slug: hydejack
 description: >
 ---

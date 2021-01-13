@@ -39,9 +39,9 @@ Even though machine learning supersedes humans in some aspect, the level of accu
 
 **References:**
 
-1. L.He, G.Wang and Z.Hu, "Learning Depth from Single Images with Deep Neural Network Embedding Focal", 2018, China.
-2. D.Eigen, C.Puhrsch, R.Fergus, "Depth Map Prediction from a Single Image using a Multi-Scale Deep Network", 2014, New York.
-3. R.A.Hamzah, H.Ibrahim, "Literature Survey on Stereo Vision Disparity Map Algorithms", Hindawi Publishing Corporation Journal of Sensors, 2015, Malaysia.
-4. Image 1 Eyes Closeup - https://twistedsifter.com/2012/08/extreme-close-ups-of-the-human-eye/
-5. Image 2 Stereo Vision Camera Setup - http://chriswalkertechblog.blogspot.com/2014/03/stereo-vision-basics.html
-6. A.Nieder, "Stereoscopic Vision: Solving the Correspondence Problem", 2003, Germany.
+* L.He, G.Wang and Z.Hu, "Learning Depth from Single Images with Deep Neural Network Embedding Focal", 2018, China.
+* D.Eigen, C.Puhrsch, R.Fergus, "Depth Map Prediction from a Single Image using a Multi-Scale Deep Network", 2014, New York.
+* R.A.Hamzah, H.Ibrahim, "Literature Survey on Stereo Vision Disparity Map Algorithms", Hindawi Publishing Corporation Journal of Sensors, 2015, Malaysia.
+* Image 1 Eyes Closeup - https://twistedsifter.com/2012/08/extreme-close-ups-of-the-human-eye/
+* Image 2 Stereo Vision Camera Setup - http://chriswalkertechblog.blogspot.com/2014/03/stereo-vision-basics.html
+* A.Nieder, "Stereoscopic Vision: Solving the Correspondence Problem", 2003, Germany.
