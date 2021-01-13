@@ -48,7 +48,7 @@ author:
 
 menu:
   - title:             About
-    url:               /about/
+    url:               /docs/
   - title:             Blogs
     url:               /hyde/
   - title:             Tech Articles

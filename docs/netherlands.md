@@ -27,14 +27,15 @@ Buyers of the PRO version can jump straight to [installation for pro buyers](ins
 or [upgrades for pro buyers](upgrade.md#pro-version).
 
 ## Getting started
-* [Child]{:.heading.flip-title} --- Shrishti Vidyasharam 
+* [Namma Vellore]{:.heading.flip-title} --- Shrishti Vidyasharam 
 * [Bachelor Life]{:.heading.flip-title} --- National Institue of Technology
 * [Work]{:.heading.flip-title} --- Tata Motors Limited Dharwad
-* [Masters]{:.heading.flip-title} --- Delft University of Technology
+* [Masters]{:.heading.flip-title} --- Tata Motors Limited Dharwad
 {:.related-posts.faded}
 
 
-[child]: docs/child.md
-[college]: docs/college.md
-[work]: docs/work.md
-[netherlands]: docs/netherlands.md
+[install]: child.md
+[upgrade]: college.md
+[config]: work.md
+[basics]: netherlands.md
+[writing]: writing.md
