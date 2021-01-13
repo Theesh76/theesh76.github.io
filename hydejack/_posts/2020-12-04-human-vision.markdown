@@ -3,6 +3,11 @@ layout: post
 title:  Creating a Human Vision
 image:  /assets/img/blog/eye.jpg
 tags: ['Computer Vision']
+comments: true
+accent_color: rgb(84, 150, 137)
+accent_image:
+  background: rgb(121, 217, 198)
+  overlay:    true
 ---
 Incessantly I goggle at my phone every day, I admire when I witness beautiful scenery and I see the world through my eyes. However, I have failed to acknowledge my main protagonist who helps me capture these beauties - my eyes. Further, it raises a paramount question - how powerful are my eyes and the brain that process the images?. This particular thought didn't strike me until I got interested in computer vision. The monumental growth of camera technology, its intersection with machine learning and the plausibility of recreating a human eye with the said technology ensembles my article.
 

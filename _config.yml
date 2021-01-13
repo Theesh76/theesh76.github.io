@@ -60,9 +60,9 @@ menu:
 copyright:             >
   © 2020 Sathish Krishnamoorthi. All rights reserved.
 
-# Add links to the footer.
+#Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
-# legal:
+#legal:
 #   - title:             Impress
 #     href:              /impress/
 #   - title:             Cookies Policy
@@ -94,7 +94,7 @@ google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                  Noto Sans, Helvetica, Arial, sans-serif
+font:                  Helvetica
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
@@ -192,7 +192,7 @@ hydejack:
   cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
-  advertise:           false
+  advertise:           true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:

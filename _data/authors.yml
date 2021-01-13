@@ -8,7 +8,11 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I am a Computer Vision Engineer, a graduate in Systems and Control, a Sportsperson, an Amateur Blogger and a photographer.
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <i class="fa fa-camera"> Computer Vision Engineer</i> 	<i class="fas fa-graduation-cap"></i> Graduate in Systems and Control 
+
+   <i class="fas fa-code"></i>	Coder  	<i class="fas fa-biking"></i> Sportsperson
+
+   <i class="fab fa-blogger"> </i> Upcoming Blogger <i class="fa fa-camera-retro"> </i> Amateur Photographer 
 
   # This photo will be used in the about section
   picture:

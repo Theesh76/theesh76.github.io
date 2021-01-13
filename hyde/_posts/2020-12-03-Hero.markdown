@@ -3,6 +3,11 @@ layout: post
 title:  Hero
 image:  /assets/img/blog/Hero.jpg
 tags: ['Movie Reviews']
+comments: true
+accent_color: rgb(40, 77, 128)
+accent_image:
+  background: rgb(116, 204, 214)
+  overlay:    true
 ---
 It's a hackneyed Robin Hood movie filled with old action stunts, odourless comedy, and unnecessary romance. To start with the positives, the movie would have been an average hit, if it was released 15 years before. The credits section was informative, where they display the real "HEROS" and their inventions. Furthermore, I learned a new word "lobotomy". If we dig further and deeply for more positives, we would get disappointment and new swear words to describe the movie.
  

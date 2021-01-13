@@ -3,6 +3,11 @@ layout: post
 title:  How many Megapixel do you need?
 image:  /assets/img/blog/cam.jpg
 tags: ['Computer Vision']
+comments: true
+accent_color: rgb(84, 150, 137)
+accent_image:
+  background: rgb(121, 217, 198)
+  overlay:    true
 ---
 Digital cameras have become the third eye of every individual. When we buy a DSLR or an expensive smartphone, the first criteria that most individuals consider are the number of pixels present in the camera. As computer vision engineers, we consider several factors in choosing a digital camera for an application. However, this article will only guide the basic science behind choosing the right number of pixels for your application.
 

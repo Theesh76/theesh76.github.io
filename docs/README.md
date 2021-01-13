@@ -18,20 +18,17 @@ This proud guy holding a master degree from the Delft University of Technology i
 * [Master Days]{:.heading.flip-title} --- Delft University of Technology
 {:.related-posts.faded}
 
-
-[school days]: school_days.md
-[Bachelor Days]: college.md
-[First Work]: work.md
-[Master Days]: netherlands.md
-
-
 <h3><b>எது நடக்கிறதோ, அது நன்றாகவே நடக்கிறது - Whatever happens, it goes well.</b></h3>
 
 * [Marriage]{:.heading.flip-title} ---  My Love
 {:.related-posts.faded}
 
 
-[Marriage]: Marriage.md
-
 <h3><b>எது நடக்க இருக்கிறதோ, அதுவும் நன்றாகவே நடக்கும் - Whatever is going to happen will happen well.</b></h3>
 
+
+[school days]: school_days.md
+[Bachelor Days]: college.md
+[First Work]: work.md
+[Master Days]: netherlands.md
+[Marriage]: Marriage.md

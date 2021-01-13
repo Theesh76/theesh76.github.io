@@ -3,6 +3,11 @@ layout: post
 title:  Gundu
 image: /assets/img/blog/Gundu.png
 tags: ['Movie Reviews']
+comments: true
+accent_color: rgb(40, 77, 128)
+accent_image:
+  background: rgb(116, 204, 214)
+  overlay:    true
 ---
 A few years back, I recall my friend talking about water bombs from the second world war, which was lying dormant in the canals of the Netherlands. I was first sceptical hearing the fact that if those bombs still existed. But, knotting the true events from World War II to where the main protagonist lives bring novelty to the movie script. 
 
